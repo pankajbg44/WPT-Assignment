@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=4, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script src="calculator.js"></script>
+  </head>
+  <body>
+    <h1
+      style="
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        font-size: xxx-large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      "
+    >
+      Calculator
+    </h1>
+    <div style="display: flex; justify-content: center; margin-bottom: 15px">
+      <input
+        id="id1"
+        type="number"
+        placeholder="Enter 1st value"
+        style="margin-right: 10px"
+      />
+      <input id="id2" type="number" placeholder="Enter 2nd value" />
+    </div>
+    <div style="display: flex; justify-content: center">
+      <input
+        type="button"
+        value="Addition"
+        onclick="sum()"
+        style="margin-right: 5px"
+      />
+      <input
+        type="button"
+        value="Substraction"
+        onclick="subs()"
+        style="margin-right: 5px"
+      />
+      <input
+        type="button"
+        value="Multiplication"
+        onclick="multi()"
+        style="margin-right: 5px"
+      />
+      <input
+        type="button"
+        value="Division"
+        onclick="div()"
+        style="margin-right: 5px"
+      />
+    </div>
+  </body>
+</html>
